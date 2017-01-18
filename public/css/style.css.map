@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACJ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,eAAe;EAIrB,wBAAG;IACF,MAAM,EAAE,eAAe;IACvB,gBAAgB,EAAE,OAAO",
+"sources": ["../../src/scss/myspace-3.scss"],
+"names": [],
+"file": "style.css"
+}
