@@ -1,15 +1,37 @@
 @import 'variable';
 
 body {
+	font-family:"Arial";
 	width: 500px;
-	border: 2px solid black;
-
+	border: 2px solid $darkblue;
+	border-radius: 5px;
 	#group-3 {
 		section {
+			#tBox {
+				width: 480px;
+				margin: 10px 5px;
+			}
 			h1 {
-				border: 2px solid $lavender;
 				background-color: $darkblue;
-				border-radius: 5px 5px 0 0;
+				color: $white;
+				padding: 10px 0 10px 25px;
+				width:475px;
+				span{
+					position:relative;
+					left: 250px;
+					padding:1px 5px;
+					background-color:$white;
+					opacity:.3;
+					color: $darkblue;
+					margin-left: 5px;
+					font-size: 24px;
+					text-align:center;
+					border-radius:5px;
+				}
+
+				#hat{
+					transform: rotate(180deg);
+				}
 			}
 			article {
 				border-bottom:1px solid #cfd2d6;
@@ -26,6 +48,9 @@ body {
 					text-decoration: none;
 					color:blue;
 				}
+			}
+			#status{
+				display: inline-block;
 			}
 		}
 	}

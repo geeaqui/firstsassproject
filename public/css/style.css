@@ -1,10 +1,29 @@
 body {
+  font-family: "Arial";
   width: 500px;
-  border: 2px solid black; }
+  border: 2px solid #7faed8;
+  border-radius: 5px; }
+  body #group-3 section #tBox {
+    width: 480px;
+    margin: 10px 5px; }
   body #group-3 section h1 {
-    border: 2px solid #eaeaea;
     background-color: #7faed8;
-    border-radius: 5px 5px 0 0; }
+    color: #fff;
+    padding: 10px 0 10px 25px;
+    width: 475px; }
+    body #group-3 section h1 span {
+      position: relative;
+      left: 250px;
+      padding: 1px 5px;
+      background-color: #fff;
+      opacity: .3;
+      color: #7faed8;
+      margin-left: 5px;
+      font-size: 24px;
+      text-align: center;
+      border-radius: 5px; }
+    body #group-3 section h1 #hat {
+      transform: rotate(180deg); }
   body #group-3 section article {
     border-bottom: 1px solid #cfd2d6; }
     body #group-3 section article ul li {
@@ -16,5 +35,7 @@ body {
     body #group-3 section article a {
       text-decoration: none;
       color: blue; }
+  body #group-3 section #status {
+    display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
