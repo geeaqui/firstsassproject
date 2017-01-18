@@ -23,7 +23,9 @@ body {
       text-align: center;
       border-radius: 5px; }
     body #group-3 section h1 #hat {
-      transform: rotate(180deg); }
+      display: inline-block;
+      transform: rotate(180deg);
+      padding-top: 2px 5px; }
   body #group-3 section article {
     border-bottom: 1px solid #cfd2d6; }
     body #group-3 section article ul li {
