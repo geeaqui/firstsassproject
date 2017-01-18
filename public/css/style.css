@@ -10,10 +10,11 @@ body {
     background-color: #7faed8;
     color: #fff;
     padding: 10px 0 10px 25px;
-    width: 475px; }
+    width: 475px;
+    font-weight: bold; }
     body #group-3 section h1 span {
       position: relative;
-      left: 250px;
+      left: 220px;
       padding: 1px 5px;
       background-color: #fff;
       opacity: .3;
@@ -25,11 +26,13 @@ body {
     body #group-3 section h1 #hat {
       display: inline-block;
       transform: rotate(180deg);
-      padding-top: 2px 5px; }
+      padding: 3px 5px; }
   body #group-3 section article {
+    margin: 2.5px;
     border-bottom: 1px solid #cfd2d6; }
     body #group-3 section article ul li {
-      display: inline-block; }
+      display: inline-block;
+      font-size: 12px; }
     body #group-3 section article .mid {
       border-left: 1px solid black;
       border-right: 1px solid black;
@@ -37,6 +40,12 @@ body {
     body #group-3 section article a {
       text-decoration: none;
       color: blue; }
+    body #group-3 section article span, body #group-3 section article .time {
+      color: #b4b6ba; }
+    body #group-3 section article .time {
+      font-size: 12px; }
+    body #group-3 section article p {
+      padding: 5px; }
   body #group-3 section #status {
     display: inline-block; }
 
