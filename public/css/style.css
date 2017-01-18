@@ -1,18 +1,22 @@
-body {
+#group-3 {
   font-family: "Arial";
   width: 500px;
   border: 2px solid #7faed8;
   border-radius: 5px; }
-  body #group-3 section #tBox {
+  #group-3 section .pp {
+    display: inline-block;
+    width: 50px;
+    height: 50px; }
+  #group-3 section #tBox {
     width: 480px;
     margin: 10px 5px; }
-  body #group-3 section h1 {
+  #group-3 section h1 {
     background-color: #7faed8;
     color: #fff;
     padding: 10px 0 10px 25px;
     width: 475px;
     font-weight: bold; }
-    body #group-3 section h1 span {
+    #group-3 section h1 span {
       position: relative;
       left: 220px;
       padding: 1px 5px;
@@ -23,30 +27,33 @@ body {
       font-size: 24px;
       text-align: center;
       border-radius: 5px; }
-    body #group-3 section h1 #hat {
+    #group-3 section h1 #hat {
       display: inline-block;
       transform: rotate(180deg);
       padding: 3px 5px; }
-  body #group-3 section article {
-    margin: 2.5px;
+  #group-3 section article {
+    margin: 5px;
     border-bottom: 1px solid #cfd2d6; }
-    body #group-3 section article ul li {
+    #group-3 section article ul li {
       display: inline-block;
       font-size: 12px; }
-    body #group-3 section article .mid {
+    #group-3 section article .mid {
       border-left: 1px solid black;
       border-right: 1px solid black;
       padding: 5px; }
-    body #group-3 section article a {
+    #group-3 section article a {
       text-decoration: none;
       color: blue; }
-    body #group-3 section article span, body #group-3 section article .time {
+    #group-3 section article span, #group-3 section article .time {
       color: #b4b6ba; }
-    body #group-3 section article .time {
+    #group-3 section article .time {
       font-size: 12px; }
-    body #group-3 section article p {
+    #group-3 section article p {
       padding: 5px; }
-  body #group-3 section #status {
+    #group-3 section article .div1, #group-3 section article img {
+      width: 70px;
+      float: left; }
+  #group-3 section #status {
     display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
